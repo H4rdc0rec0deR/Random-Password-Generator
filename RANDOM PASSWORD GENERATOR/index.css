@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  background: #1f2937;
+  font-family: "Inter";
+  font-style: normal;
+  color: #ffffff;
+}
+
+h1 {
+  margin: 115px 144px 10px 52px;
+  font-family: "Karla";
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.025em;
+  color: #ffffff;
+}
+
+div {
+  color: #55f991;
+}
+
+h3 {
+  position: absolute;
+  width: 372px;
+  height: 28px;
+  left: 52px;
+  top: 205px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #d5d4d8;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px 9px 15px;
+  gap: 12px;
+  position: absolute;
+  width: 191px;
+  height: 42px;
+  left: 52px;
+  top: 284px;
+  background: #10b981;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+hr {
+  position: absolute;
+  width: 446px;
+  height: 0px;
+  left: 52px;
+  top: 361px;
+
+  border: 1px solid #2f3e53;
+}
+
+.passwordOne {
+  position: absolute;
+  width: 211px;
+  height: 39px;
+  left: 52px;
+  top: 396px;
+  background: #273549;
+  border-radius: 6px;
+}
+
+.passwordTwo {
+  position: absolute;
+  width: 211px;
+  height: 39px;
+  left: 287px;
+  top: 396px;
+  background: #273549;
+  border-radius: 6px;
+}
+
+p {
+  position: absolute;
+  width: 180px;
+  height: 32px;
+  top: 400px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 38px;
+  text-align: center;
+  color: #55f991;
+}
